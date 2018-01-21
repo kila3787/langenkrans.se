@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+body {
+    background: #03C9A9;
+    font-family: "Barrio";
+}
+
+legend {
+    color: #f0f8ff;
+    margin-top: 40px;
+    font-size: 5.5rem;
+    text-align: center;
+    letter-spacing: 1px;
+    box-shadow: 38px 34px -26px hsla(0, 0%, 0%, .2);
+    border-radius: 255px 2px 225px/15px 225px 15px 255px;
+    border-bottom: solid 7px #f0f8ff;
+}
+
+h3 {
+    color: #f0f8ff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* rubrik */
+
+#lg {
+    margin-top: -100px;
+}
+
+
+/* kubarna */
+
+.kubarna {
+    width: 350px;
+    height: 350px;
+    margin: 100px auto;
+    padding: 13px;
+}
+
+.kubarna .kuben {
+    width: 33%;
+    height: 33%;
+    box-shadow: 38px 34px -26px hsla(0, 0%, 0%, .2);
+    border-radius: 255px 2px 225px/15px 225px 15px 255px;
+    border: solid 22px #03C9A9;
+    background-color: #f0f8ff;
+    float: left;
+    -webkit-animation: kubAnimation 2.0s infinite ease-in-out;
+    animation: kubAnimation 2.2s infinite ease-in-out;
+}
+
+.kubarna .kubEtt {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.kubarna .kubTva {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.kubarna .kubTre {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.kubarna .kubFyra {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.kubarna .kubFem {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.kubarna .kubSex {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.kubarna .kubSju {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.kubarna .kubAtta {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.kubarna .kubNio {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+
+/* animationer */
+
+@-webkit-keyframes kubAnimation {
+    0%,
+    20%,
+    30%,
+    70%,
+    100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(2, 1, 1);
+    }
+    35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1);
+    }
+}
+
+@keyframes kubAnimation {
+    0%,
+    70%,
+    100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1);
+    }
+    35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1);
+    }
+}

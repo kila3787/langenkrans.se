@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Barrio|Lato);
+body {
+    background: #03C9A9;
+    color: #f0f8ff;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Barrio", sans-serif
+}
+
+h2 {
+    text-align: center;
+}
+
+.sida,
+input {
+    display: inline-block
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box
+}
+
+legend {
+    color: #f0f8ff;
+    margin-top: 40px;
+    font-size: 5.5rem;
+    font-family: "Barrio";
+    text-align: center;
+    letter-spacing: 1px;
+    box-shadow: 38px 34px -26px hsla(0, 0%, 0%, .2);
+    border-radius: 255px 2px 225px/15px 225px 15px 255px;
+    border-bottom: solid 7px #f0f8ff;
+}
+
+button,
+input {
+    width: 100%;
+    font-family: "Barrio";
+    border: none;
+    outline: 0;
+    text-align: center
+}
+
+input {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    font-size: 36px;
+    background-color: #03C9A9;
+    padding: 18px 18px 1px;
+    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
+    border-radius: 3000 15px 225px/15px 225px 15px 255px;
+    border-bottom: solid 7px #f0f8ff;
+}
+
+button {
+    padding: 18px 68px;
+    align-self: center;
+    background: 0 0;
+    transition: all .5s ease;
+    color: #f0f8ff;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
+    border-radius: 255px 15px 225px/15px 225px 15px 255px;
+    border: solid 7px #f0f8ff;
+}
+
+button:hover {
+    background: #1BA39C
+}
+
+#frageinnehall {
+    width: 400%;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-150px);
+    transform: translateY(-150px);
+    -webkit-transition: .78s .50s;
+    transition: 1.5s 0.6s
+}
+
+.sida {
+    height: 100%;
+    width: 25%;
+    padding: 30px;
+    vertical-align: top;
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent
+}
+
+.fraga {
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.fraga:before {
+    content: "Fråga:";
+}
+
+.val {
+    width: 350px;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+#rund {
+    width: 20px;
+    color: aqua;
+    border: 100px solid black !important;
+}
+
+.op {
+    width: 10%;
+    border: 100px solid black !important;
+}
+
+.op2 {
+    float: right
+}
+
+checkbox {
+    background: green;
+}
+
+label {
+    padding-bottom: 15px;
+    margin-bottom: 2px;
+    font-size: 35px;
+}
+
+none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+}
+input[type="checkbox"]:after,
+input[type="checkbox"]:active:after:after {
+    border-radius: 2px;
+    width: 9px;
+    height: 9px;
+    padding: 200px;
+    box-shadow: 0 0 0 2px #EEE;
+    content: '';
+}
+input[type="checkbox"] {
+    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
+    border-radius: 255px 15px 225px/15px 225px 15px 255px;
+    border: solid 7px #f0f8ff;
+    box-shadow: 0 0 0 0 #009688 inset, 0 0 0 2px #009688 inset, 0 0 0 8px white inset, 0 0 0 0 #ddd inset, 0 0 0 0 #ddd;
+    transition: all 0.7s;
+    zoom: 2.5;
+}
+input[type="checkbox"]:checked:active {
+    background: #009688;
+    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
+    border-radius: 255px 15px 225px/15px 225px 15px 255px;
+    border: solid 1px #f0f8ff;
+}
+input[type="checkbox"]:checked {
+    background: #F9F9F9;
+    box-shadow: 0 0 0 8px #009688 inset, 0 0 0 0 #666666 inset, 0 0 0 8px #EEE inset, 0 0 0 0 #ddd inset, 0 0 0 0 #ddd;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<!--META START -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>UNDERSÖKNING</title>
+    <link rel="icon" href="fraga.gif" type="image/gif">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!--META SLUT -->
+
+<body>
+    <!-- CONTAINER START -->
+    <div class="container">
+        <legend class="animated fadeInDown">UNDERSÖKNING</legend>
+        <!--fråge div start -->
+        <div id="frageinnehall">
+            <!--FÖRSTA FRÅGAN START -->
+            <div class="sida" id="sida1">
+                <div class="fraga animated slideIn">
+                    Förlåt, Men vad hette ni?
+                </div>
+                <div class="val">
+                    <input type="text" name="namn" class="animated slideInLeft"><br>
+                    <button required class="fragebyte animated slideInUp">Nästa</button>
+                </div>
+                <legend id="lg"> &nbsp; &nbsp; &nbsp;</legend>
+            </div>
+            <!--FÖRSTA FRÅGAN SLUT -->
+            <!--ANDRA FRÅGAN START -->
+            <div class="sida" id="sida2">
+                <div class="fraga">
+                    yrke?
+                </div>
+                <div class="val">
+                    <div class="rutatvå ">
+                        <input type="checkbox" value="None" id="rund" name="check" class="op fragebyte" for="q2op1" />
+                        <label for="rund">INTERVJUARE</label>
+                    </div>
+                    <div class="ruta3">
+                        <input type="checkbox" value="None" id="rund" name="check" class="op " for="q2op1" class="op op2 fragebyte" for="q2op2" />
+                        <label for="rund">KLOCKMAKARE</label>
+                    </div>
+                    <div class="ruta4">
+                        <input type="checkbox" value="None" id="rund" name="check" class="op " for="q2op1" class="op op2 fragebyte" for="q2op3" />
+                        <label for="rund">NARR</label>
+                    </div>
+                    <div class="ruta2">
+                        <input type="checkbox" value="None" id="rund" name="check" class="op" for="q2op1" class="op op2 fragebyte" for="q2op4" />
+                        <label for="rund">TIDSRESENÄR</label>
+                    </div>
+                </div>
+                <legend id="lg"> &nbsp; &nbsp; &nbsp;</legend>
+            </div>
+            <!--ANDRA FRÅGAN SLUT -->
+            <!--TREDJE FRÅGAN START -->
+            <div class="sida" id="sida3">
+                <h2 class="tack">Tack för din medverkan</h2>
+                <a href="http://www.langenkrans.se"><button class="sistaKnappen">TILLBAKA TILL Langenkrans.se</button></a>
+                <legend id="lg"> &nbsp; &nbsp; &nbsp;</legend>
+            </div>
+            <!--TREDJE FRÅGAN SLUT -->
+        </div>
+        <!--fråge div start -->
+    </div>
+    <!-- CONTAINER START -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
